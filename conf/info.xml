@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">익명 닉네임</title>
+    <description xml:lang="ko">
+		익명 게시판에서 글과 코멘트 작성자의 닉네임을 익명_######과 같이 구별해주는 애드온입니다.
+    </description>
+    <version>0.2</version>
+    <date>2013-03-21</date>
+
+    <author>
+        <name xml:lang="ko">SCAC</name>
+    </author>
+	<extra_vars>
+        <var name="security_code" type="text">
+            <title xml:lang="ko">보안 강화 문구</title>
+            <description xml:lang="ko">타인이 알 수 없는 문구를 입력해주세요. '익명_######'에서 '######' 문자 생성에 사용합니다.
+            </description>
+        </var>
+	</extra_vars>
+</addon>
